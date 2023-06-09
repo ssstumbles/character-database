@@ -1,6 +1,6 @@
 const { Schema } = require('mongoose')
 
-const makeSchema = new Schema (
+const userSchema = new Schema (
     {
         user_id: { type: String, required: true },
         password: { type: String, required: true },
@@ -9,4 +9,4 @@ const makeSchema = new Schema (
     { timestamps: true }
 )
 
-module.exports = makeSchema
+module.exports = userSchema
