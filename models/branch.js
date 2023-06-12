@@ -1,9 +1,10 @@
-const { Schema } = require('mongoose')
+const { Branch } = require('mongoose')
+const { Species } = require('./species')
 
 const Branch = new Schema (
     {
+        species: { type: String, required: true},
         branch: { type: String, required: true },
-        character: { type: Schema.Types.ObjectId, ref: 'charcter' }
     },
     { timestamps: true }
 )
