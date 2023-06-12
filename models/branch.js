@@ -1,4 +1,4 @@
-const { Branch } = require('mongoose')
+const { Schema } = require('mongoose')
 const { Species } = require('./species')
 
 const Branch = new Schema (

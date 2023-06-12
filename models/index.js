@@ -8,13 +8,14 @@ const element_secondary = require('./element_secondary')
 const Species = mongoose.model('Species', species)
 const Secondary = mongoose.model('Secondary', secondary)
 const Branch = mongoose.model('Branch', branch)
-const element_primary = mongoose.model('ElementOne', element_primary)
-const element_secondary = mongoose.model('ElementTwo', element_secondary)
+const primaryElement = mongoose.model('Primary Element', element_primary)
+const secondaryElement = mongoose.model('Secondary Element', element_secondary)
 
 module.exports = {
+    Character,
     Species,
     Secondary,
     Branch,
-    ElementOne,
-    ElementTwo
+    primaryElement,
+    secondaryElement
 }

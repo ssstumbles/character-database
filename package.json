@@ -1,7 +1,7 @@
 {
   "name": "char",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the first iteration of longer-term world building. Here, I present choice of species and sub-species that users will be able to browse, save, and customise.",
   "main": "seed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,6 +14,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^7.2.2"
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
   }
 }
