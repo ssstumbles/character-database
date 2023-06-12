@@ -1,14 +1,20 @@
 const mongoose = require('mongoose')
-const userSchema = require('./user')
-const speciesSchema = require('./species')
-const branchSchema = require('./branch')
+const character = require('./character')
+const species = require('./species')
+const secondary  = require('./secondary')
+const element_primary = require('./element_primary')
+const element_secondary = require('./element_secondary')
 
-const User = mongoose.model('User', userSchema)
-const Species = mongoose.model('Species', speciesSchema)
-const Branch = mongoose.model('Branch', branchSchema)
+const Species = mongoose.model('Species', species)
+const Secondary = mongoose.model('Secondary', secondary)
+const Branch = mongoose.model('Branch', branch)
+const element_primary = mongoose.model('ElementOne', element_primary)
+const element_secondary = mongoose.model('ElementTwo', element_secondary)
 
 module.exports = {
-    User,
     Species,
-    Branch
+    Secondary,
+    Branch,
+    ElementOne,
+    ElementTwo
 }
