@@ -1,10 +1,10 @@
 const { Character } = require('../models')
 
-const getCharacter = async (req, res) => {
-    const characters = await Characer.find({})
+const getCharacters = async (req, res) => {
+    const characters = await Character.find({})
     res.json(characters)
 }
 
 module.exports = {
-    getCharacter
+    getCharacters
 }
