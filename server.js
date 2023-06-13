@@ -3,7 +3,7 @@ const cors = require('cors')
 const PORT = process.env.PORT || 3001
 const db = require('./db')
 const app = express()
-
+const AppRouter = require('./routers/AppRouter')
 const { Species, Branch, Character } = require('./models')
 
 app.use(cors())
@@ -15,3 +15,5 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
   res.send('landing page')
 })
+
+app.use('/API', AppRouter)

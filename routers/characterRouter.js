@@ -1,7 +1,7 @@
 const express = require('express')
-const router = require('express').Router()
-const controller = require ('../controllers/characterController')
+const Router = require('express').Router()
+const characterController = require ('../controllers/characterController')
 
-Router.get('/', charactersController.getCharacters)
+Router.get('/', characterController.getCharacters)
 
-module.exports = router
+module.exports = Router
