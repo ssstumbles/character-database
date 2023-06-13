@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3001
 const db = require('./db')
 const app = express()
 
-const { Species, Secondary, Branch, primaryElement, secondaryElement } = require('./models')
+const { Species, Branch, Character } = require('./models')
 
 app.use(cors())
 app.use(express.json())
