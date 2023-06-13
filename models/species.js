@@ -1,6 +1,6 @@
 const { Schema } = require('mongoose')
 
-const Species = new Schema (
+const speciesSchema = new Schema (
     {
         species_name: { type: String, required: true },
         skill_primary: { type: String, required: true },
@@ -10,4 +10,4 @@ const Species = new Schema (
     { timestamps: true },
 )
 
-module.exports = Species
+module.exports = speciesSchema
