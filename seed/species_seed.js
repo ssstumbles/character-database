@@ -9,10 +9,12 @@ const species_seed = [
     {
         species_name: 'Elf',
         skill_primary: 'Spirituality',
+        branch: "Lava",
+        species_id:"64887ad4351b625b2cc44596"
     },
     {
         species_name: 'Orc',
-        skill_pirmary: 'Sorcery'
+        skill_primary: 'Sorcery'
     },
     {
         species_name: 'Sprite',
@@ -27,8 +29,9 @@ const species_seed = [
         skill_primary: 'Trickery'
     }
 ]
-}
+
 await Species.insertMany(species_seed)
+}
 
 const run = async () => {
     await main()

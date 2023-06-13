@@ -3,7 +3,7 @@ const { Species } = require('./species')
 
 const Branch = new Schema (
     {
-        species: { type: String, required: true},
+        species_name: { type: String, required: true  },
         branch: { type: String, required: true },
     },
     { timestamps: true }
