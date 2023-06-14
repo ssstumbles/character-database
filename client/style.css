@@ -1,7 +1,9 @@
-body {
+/* body {
     font-family: sans-serif; 
     display:flex;
     flex-direction: column;
+    color: white;
+    background-color:#090C02
 }
 
 .page-container {
@@ -9,7 +11,7 @@ body {
     flex-direction: column;
     background-color: #090C02;;
 
-}
+} */
 
 .species-container {
     display:flex;
