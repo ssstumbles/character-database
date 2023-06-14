@@ -6,7 +6,7 @@ const species = new Schema (
         skill_primary: { type: String, required: true },
         //branch: { type: String, required: true},
         //skill_secondary: { type: String, required: true },
-        species_id: { type: String, required: true }
+       // species_id: { type: String, required: true }
     },
     { timestamps: true },
 )

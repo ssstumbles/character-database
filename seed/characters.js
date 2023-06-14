@@ -1,5 +1,5 @@
 const db = require('../db')
-const { Species, Branch } = require('../models')
+const { Species, Branch, Character } = require('../models')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
@@ -81,7 +81,7 @@ const main = async () => {
         },
         
     ]
-    await Branch.insertMany(characters)
+    await Character.insertMany(characters)
     console.log('characters seeded')
 }
 const run = async () => {
