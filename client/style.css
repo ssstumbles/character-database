@@ -1,28 +1,62 @@
-/* body {
-    font-family: sans-serif; 
+body {
+    font-family:  sans-serif; 
     display:flex;
     flex-direction: column;
     color: white;
-    background-color:#090C02
+    background-color:#14213d;
+    font-size: 2rem
 }
 
 .page-container {
     display: flex;
     flex-direction: column;
-    background-color: #090C02;;
+    background-color: #14213d;;
 
-} */
+}
 
 .species-container {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-
+    height: 20em;
+    padding: none;
+    margin: none;
+}
+.species-card {
+    border: none;
+    width: 10em;
+    font-size: 1.4em;
 }
 
 .branch-container{
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content:space-between ;
-    display: hidden;
+}
+.branch-card {
+    display: none;
+}
+
+#elf {
+    font-family: 'Tsukimi Rounded', sans-serif;
+    background-color: #f1faee;
+    color: #e63946;
+}
+#orc {
+    font-family: 'Amatic SC', cursive;
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+#sprite {
+    font-family: 'Moirai One', cursive;
+    background-color: #dda15e;
+    color: #283618;
+}
+#mer {
+    font-family: 'Comforter', cursive;
+    background-color: #38a3a5;
+}
+#goblin {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #e9edc9;
 }

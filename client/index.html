@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comforter&family=Moirai+One&family=Shadows+Into+Light&family=Tsukimi+Rounded:wght@300&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="script.js"></script>
     <title>Character Creation</title>
-</head>
-<body>
-    <div class ="page-container">
-    <nav>
-        <h1 class="page-title">Character Creation</h1>
-    </nav>
+  </head>
+  <body>
+    <div class="page-container">
+      <nav>
+        <h1 class="page-title"></h1>
+      </nav>
 
-    <div class ="species-container">
-        <button class="species-card" id="elf"></button>
-        <button class="species-card" id="orc"></button>
-        <button class="species-card" id="sprite"></button>
-        <button class="species-card" id="mer"></button>
-        <button class="species-card" id="goblin"></button>
+      <div class="species-container">
+        <button class="species-card" id="elf">Elf</button>
+        <button class="species-card" id="orc">Orc</button>
+        <button class="species-card" id="sprite">Sprite</button>
+        <button class="species-card" id="mer">Mer</button>
+        <button class="species-card" id="goblin">Goblin</button>
+      </div>
+
+      <div class="branch-container">
+        <button class="branch-card" id="lava-elf"></button>
+        <button class="branch-card" id="mountain-elf"></button>
+        <button class="branch-card" id="frost-orc"></button>
+        <button class="branch-card" id="dune-orc"></button>
+        <button class="branch-card" id="mushroom-sprite"></button>
+        <button class="branch-card" id="twig-sprite"></button>
+        <button class="branch-card" id="grass-sprite"></button>
+        <button class="branch-card" id="ocean-mer"></button>
+        <button class="branch-card" id="lagoon-mer"></button>
+        <button class="branch-card" id="river-mer"></button>
+        <button class="branch-card" id="dock-goblin"></button>
+        <button class="branch-card" id="swamp-goblin"></button>
+      </div>
+
+      <div class="character-container">
+        <div id="species-choice"></div>
+        <div id="primary-skill"></div>
+        <div id="secondary-skill"></div>
+        <div id="branch-choice"></div>
+        <div id="primary-element"></div>
+        <div id="secondary-element"></div>
+      </div>
     </div>
-
-    <div class ="branch-container">
-        <button class ="branch-card" id="lava-elf"></button>
-        <button class ="branch-card" id="mountain-elf"></button>
-        <button class ="branch-card" id="frost-orc"></button>
-        <button class ="branch-card" id="dune-orc"></button>
-        <button class ="branch-card" id="mushroom-sprite"></button>
-        <button class ="branch-card" id="twig-sprite"></button>
-        <button class ="branch-card" id="grass-sprite"></button>
-        <button class ="branch-card" id="ocean-mer"></button>
-        <button class ="branch-card" id="lagoon-mer"></button>
-        <button class ="branch-card" id="river-mer"></button>
-        <button class ="branch-card" id="dock-goblin"></button>
-        <button class ="branch-card" id="swamp-goblin"></button>
-    </div>
-
-    <div class ="character-container">
-        <div id="species-choice"> </div>
-        <div id ="primary-skill"> </div>
-        <div id ="secondary-skill"> </div>
-        <div id ="branch-choice"> </div>
-        <div id ="primary-element"> </div>
-        <div id ="secondary-element"> </div>
-    </div>
-
-</div>
-</body>
+  </body>
 </html>
