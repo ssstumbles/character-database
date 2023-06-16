@@ -1,15 +1,34 @@
 let url = `https://localhost:3001`
 
+const speciesAll = document.querySelector('.species-container')
+
 const elfSelect = document.querySelector('#elf')
 const orcSelect = document.querySelector('orc')
 const spriteSelect = document.querySelector('sprite')
 const merSelect  = document.querySelector('mer')
+const speciesCard = document.querySelector('.species-container')
 
 const getSpecies = async () => {
 const pullSpecies = await axios.get('http://localhost:3001/API/species_seed')
     console.log(pullSpecies)
 }
 getSpecies()
+
+// const speciesChoice = () => {
+//     speciesAll.style.display = `flex`,
+
+// }
+
+// elfSelect.addEventListener('click', getSpecies = async () => {
+//     let 
+// }
+
+
+// )
+speciesCard.addEventListener('click', getSpecies = async () => {
+    let 
+})
+
 
 const lavaElf = document.querySelector('#lava-elf')
 const mountainElf = document.querySelector('#mountain-elf')
