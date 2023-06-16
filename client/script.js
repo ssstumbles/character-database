@@ -24,10 +24,10 @@ getSpecies()
 // }
 
 
-// )
-speciesCard.addEventListener('click', getSpecies = async () => {
-    let 
-})
+// // )
+// speciesCard.addEventListener('click', getSpecies = async () => {
+//     let 
+// })
 
 
 const lavaElf = document.querySelector('#lava-elf')
