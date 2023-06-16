@@ -1,6 +1,6 @@
 # Character Database
 
-This is the first iteration of longer-term world building. Here, I present choice of species and sub-species that users will be able to browse.
+This is the first iteration of longer-term world building. Here, is a collection of fantasy species that are a stray from the traditional lore we all know and love.
 
 [Trello Board](https://trello.com/b/F1F6eRfd/speciation)
 
